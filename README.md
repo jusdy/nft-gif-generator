@@ -1,1 +1,1 @@
-Integrate Gif encoder with Hashlips gif generator
+Integrate Gif encoder with Hashlips art generator
