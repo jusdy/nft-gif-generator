@@ -52,13 +52,6 @@ const format = {
     height: 1024
 };
 
-const editionCnt = {
-    common: 150,
-    uncommon: 70,
-    rare: 15,
-    epic: 10,
-}
-
 const rarity = [
     { key: "", val: "original" },
     { key: "_r", val: "rare" },

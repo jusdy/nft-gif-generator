@@ -6,6 +6,5 @@ const edition = myArgs.length > 0 ? Number(myArgs[0]) : defaultEdition;
 (async () => {
   buildSetup();
   await createFiles();
-  //console.log(possibleEdition())
 })();
 
