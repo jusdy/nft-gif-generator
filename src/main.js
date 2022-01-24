@@ -217,7 +217,7 @@ const createFiles = async edition => {
   tempAtt = {}
 
 
-  await abc([0,0,0,0,0], 1)
+  await generate([0,0,0,0,0], 1)
 };
 
 /**
@@ -326,7 +326,7 @@ const possibleEdition = () => {
   return result;
 }
 
-const abc = async (indexArr, total) => {
+const generate = async (indexArr, total) => {
   if (total > editionCount.total) return;
 
   if (total <= editionCount.common) {
@@ -379,6 +379,6 @@ const abc = async (indexArr, total) => {
     }
   }
 
-  abc(indexArr, total + 1)
+  generate(indexArr, total + 1)
 }
 module.exports = { buildSetup, createFiles, possibleEdition };

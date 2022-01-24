@@ -31,7 +31,7 @@ const layersOrder = [
         name: 'eyes',
         number: {
             common:   0,
-            uncommon: 1,
+            uncommon: 2,
             rare:     0,
             epic:     0,
         }
@@ -40,7 +40,7 @@ const layersOrder = [
         name: 'accessories',
         number: {
             common:   0,
-            uncommon: 0,
+            uncommon: 1,
             rare:     0,
             epic:     0,
         }
